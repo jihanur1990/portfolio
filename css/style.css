@@ -14,11 +14,34 @@ body{
     cursor: pointer;
 
 }
+
+.section-tittle{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-desc{
+    color: #757575;
+   text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px
+}
+
+
+.header{
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 nav{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 80%;
+   width: 70%;
    margin: 0 auto;
 }
 
@@ -48,11 +71,9 @@ nav a{
     text-decoration: none;
 }
 
-.header{
-    background: #FFF8F3;
-}
+
 .banner{
-    padding: 30px  30px  30px 150px ;
+    padding: 30px  30px  0 180px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,4 +82,63 @@ nav a{
 img{
     width: 584px;
     height: 676px; 
+}
+
+.banner-greeting{
+    color:  #474747;  
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 0px;
+
+}
+.banner-tittle{
+    color:#181818;
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+}
+.banner-content p{
+    color: #757575;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+main{
+    max-width: 67%;
+    margin: 130px auto 0;
+}
+.about{
+    padding: 100px 156px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-bottom: 130px;
+}
+.about-info-container, .skill-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.skill-info img{
+    width: 44px;
+    height: 44px; 
+}
+.skill-info{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+margin-top:50px ;
+}
+.skill-info-desc{
+    padding-top: 30px;
+}
+.skill-info-tittle{
+    padding-top: 30px;
 }
