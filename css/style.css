@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
     font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 .btn-primary{
     color: #FFF;
@@ -20,7 +20,6 @@ nav{
    align-items: center;
    width: 80%;
    margin: 0 auto;
-   margin-top: 50px;
 }
 
 
@@ -47,4 +46,19 @@ nav li{
 nav a{
     color:#474747;
     text-decoration: none;
+}
+
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px  30px  30px 150px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+img{
+    width: 584px;
+    height: 676px; 
 }
